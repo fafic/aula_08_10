@@ -2,6 +2,11 @@ package be.edu.fafic.calculadora;
 
 public class Calculadora {
 
+
+    public double subtracao (double a, double b) {
+        return a - b;
+    }
+
     public int Dobro(int a) {
         return a * 2;
     }
@@ -10,6 +15,7 @@ public class Calculadora {
     }
     public int multiplicar(int a, int b){
         return a * b;
+
     }
 
     public void teste(){
